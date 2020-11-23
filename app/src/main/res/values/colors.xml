@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Primary">#347BCB</color>
+    <color name="PrimaryDimGrey">#347BCB</color>
+    <color name="PrimaryGrey">#347BCB</color>
+    <color name="PrimaryHtmlDark">#347BCB</color>
+    <color name="SecWhite">#FFFFFF</color>
+    <color name="colorPrimaryDark">#347BCB</color>
+    <color name="SecSnowWhite">#FFFAFA</color>
+    <color name="SecAzure">#F0FFFF</color>
+    <color name="SecGhostWhite">#F8F8FF</color>
+    <color name="SecWhiteSmoke">#205A97</color>
+    <color name="SecIvory">#FFFFF0</color>
+
+
+</resources>

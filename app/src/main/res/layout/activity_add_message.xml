@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityAddMessage"
+    android:padding="5dp">
+    <android.support.v7.widget.Toolbar
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/toolbar"/>
+    <android.support.v7.widget.CardView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="6dp"
+        android:id="@+id/cardView1"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/row1">
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:textSize="22sp"
+                android:hint="Enter phone number"
+                android:layout_centerVertical="true"
+                android:id="@+id/editNumber"/>
+        </RelativeLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="6dp"
+        android:id="@+id/cardView2"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_below="@id/cardView1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/row2">
+
+            <EditText
+                android:layout_height="200dp"
+                android:layout_width="match_parent"
+                android:layout_centerVertical="true"
+                android:textSize="22sp"
+                android:gravity="top"
+                android:hint="Enter your message"
+                android:id="@+id/editMessage"/>
+        </RelativeLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="6dp"
+        android:layout_below="@id/cardView2"
+        android:layout_marginTop="4dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/row3"
+            >
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="hr:min"
+                android:textSize="30sp"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="8dp"
+                android:id="@+id/textView"
+                />
+            <Button
+                android:layout_height="60dp"
+                android:layout_width="80dp"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/ic_arrow"
+                android:id="@+id/btnTime"
+
+                />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

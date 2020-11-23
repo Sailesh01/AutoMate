@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.omniauto">
+
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ActivityAddMobData"
+            android:label="MOBILE DATA" />
+        <activity
+            android:name=".ActivityMobData"
+            android:label="MOBILE DATA" />
+        <activity
+            android:name=".ActivityAddPower"
+            android:label="POWER" />
+        <activity
+            android:name=".ActivityPower"
+            android:label="POWER" />
+        <activity
+            android:name=".ActivityAddCall"
+            android:label="HOTSPOT" />
+        <activity
+            android:name=".ActivityCall"
+            android:label="HOTSPOT" />
+        <activity
+            android:name=".ActivityAddMessage"
+            android:label="MESSAGE" />
+        <activity
+            android:name=".ActivityMessage"
+            android:label="MESSAGE" />
+        <activity
+            android:name=".ActivityAddSilent"
+            android:label="SILENT" />
+        <activity
+            android:name=".ActivitySilent"
+            android:label="SILENT" />
+        <activity
+            android:name=".ActivityAddAir"
+            android:label="FLIGHT" />
+        <activity
+            android:name=".ActivityAirplane"
+            android:label="FLIGHT" />
+        <activity
+            android:name=".ActivityAddBlue"
+            android:label="BLUETOOTH" />
+        <activity
+            android:name=".ActivityBluetooth"
+            android:label="BLUETOOTH" />
+        <activity
+            android:name=".ActivityWifi1"
+            android:label="WIFI" />
+        <activity
+            android:name=".ActivityAdd"
+            android:label="WIFI" />
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
